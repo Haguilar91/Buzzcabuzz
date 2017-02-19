@@ -1,0 +1,31 @@
+[{
+	_id: 1,
+	aerolinea:"Delta",
+	ciudad_salida: "Miami",
+	ciudad_destino: "SPS",
+	fechahr_salida: new Date(2017,02,19,23,00,00),
+	fechahr_llegada: new Date(2017,02,20,02,00,00)
+},
+{
+	_id: 2,
+	aerolinea:"American",
+	ciudad_salida: "Los Angeles",
+	ciudad_destino: "New York",
+	fechahr_salida: new Date(2017,02,20,06,00,00),
+	fechahr_llegada: new Date(2017,02,20,12,00,00)
+}]
+
+Vuelos
+http://localhost:3000/api/vuelos/
+
+Id
+http://localhost:3000/api/vuelos/2
+
+Fecha
+http://localhost:3000/api/vuelos/fecha/2017-03-18	
+
+salidas
+http://localhost:3000/api/vuelos/salidas/rangos/?desde=2017-02-10&hasta=2017-03-22
+
+llegadas
+http://localhost:3000/api/vuelos/llegadas/rangos/?desde=2017-02-10&hasta=2017-03-22
